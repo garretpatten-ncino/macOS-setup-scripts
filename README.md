@@ -1,5 +1,5 @@
 # Mac OS Setup Scripts
-A repository of setup scripts for my mac OS environments
+A repository to automate the setup and configuration of my mac OS environments at work.
 
 # Instructions
 
@@ -8,9 +8,12 @@ A repository of setup scripts for my mac OS environments
 # Clone repository
 git clone https://github.com/garretpatten/macOS-setup-scripts
 
-# Checkout root of project
+# Change directory to the root of the project
 cd macOS-setup-scripts
 
-# Run master script
-sh src/scripts/master.sh
+# Change directory to source and pull submodules
+cd src && git submodule init && git submodule update --remote --recursive
+
+# Run the master script
+sh scripts/master.sh
 ```
