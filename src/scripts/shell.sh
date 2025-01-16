@@ -27,7 +27,7 @@ if [[ ! -f "$HOME/Library/Fonts/MesloLFMNerdFont-Regular.ttf" ]]; then
     brew install --cask font-meslo-lg-nerd-font
 fi
 
-# Powerline Fonts\
+# Powerline Fonts
 if [[ ! -f "$HOME/Library/Fonts/PowerlineSymbols.otf" ]]; then
     brew cask install font-powerline-symbols
 fi
