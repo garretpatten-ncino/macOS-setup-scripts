@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Claude
+if [[ ! -d "/opt/homebrew/Caskroom/claude/" ]]; then
+    brew install --cask claude
+fi
+
 # Notion
 if [[ ! -d "/opt/homebrew/Caskroom/notion/" ]]; then
     brew install --cask notion
